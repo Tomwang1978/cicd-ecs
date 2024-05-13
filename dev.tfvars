@@ -1,0 +1,5 @@
+ecs_cluster_name = "tomwang1978-ecs-cluster-dev"
+ecs_service_name = "tomwang1978-ecs-service-dev"
+ecs_task_defn_family = "tomwang1978-ecs-task-def-dev"
+ecs_container_name = "tomwang1978-container-dev"
+ecs_port_name = "tomwang1978-3000-tcp-dev"
