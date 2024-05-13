@@ -1,0 +1,5 @@
+ecs_cluster_name = "tomwang-ecs-cluster-prod"
+ecs_service_name = "tomwang-ecs-service-prod"
+ecs_task_defn_family = "tomwang-ecs-task-def-prod"
+ecs_container_name = "tomwang-container-prod"
+ecs_port_name = "tomwang-3000-tcp-prod"
