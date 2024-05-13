@@ -19,31 +19,31 @@ variable "sg_id" {
 variable "ecs_cluster_name" {
     description = "ECS cluster name"
     type        = string
-    default     = "tomwang1978-ecs-test-cluster" # Change accordingly
+    default     = "tomwang-ecs-test-cluster" # Change accordingly
 }
 
 variable "ecs_service_name" {
     description = "ECS service name"
     type        = string
-    default     = "tomwang1978-ecs-service" # Change accordingly
+    default     = "tomwang-ecs-service" # Change accordingly
 }
 
 variable "ecs_task_defn_family" {
     description = "ECS task definition family name"
     type        = string
-    default     = "tomwang1978ecstaskdef"
+    default     = "tomwangecstaskdef"
 }
 
 variable "ecs_container_name" {
     description = "ECS container name"
     type        = string
-    default     = "tomwang1978-container"
+    default     = "tomwang-container"
 }
 
 variable "ecs_port_name" {
     description = "ECS port name"
     type        = string
-    default     = "tomwang1978-3000-tcp"
+    default     = "tomwang-3000-tcp"
 }
 
 variable "ecs_host_port" {
@@ -67,5 +67,5 @@ variable "ecr_url" {
 variable "ecr_image_name" {
     description = "ECR image name"
     type        = string
-    default     = "tomwang1978-node"
+    default     = "tomwang-node-app"
 }
