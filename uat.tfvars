@@ -1,0 +1,5 @@
+ecs_cluster_name = "tomwang1978-ecs-cluster-uat"
+ecs_service_name = "tomwang1978-ecs-service-uat"
+ecs_task_defn_family = "tomwang1978-ecs-task-def-uat"
+ecs_container_name = "tomwang1978-container-uat"
+ecs_port_name = "tomwang1978-3000-tcp-uat"
